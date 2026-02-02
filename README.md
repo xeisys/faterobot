@@ -1,38 +1,36 @@
 # FateRobot
 
-A Discord bot for Fate-series RPG/gacha.
+A Discord RPG/Gacha bot built with Node.js, TypeScript, and discord.js v14, featuring a web admin panel with Next.js and Tailwind.
 
-## Installation
-1. Clone the repository.
-2. Install dependencies with `npm install`.
-3. Configure your `.env` file.
+## Getting Started
 
-## Configuration
-Copy `.env.example` to `.env` and fill in your credentials:
-- DISCORD_TOKEN: Your bot token
-- MONGO_URI: MongoDB connection string
-- CLIENT_ID: Discord application id
-- GUILD_ID: Discord server id
-- PREFIX: Command prefix
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/xeisys/faterobot.git
+   cd faterobot
+   ```
 
-## Running the Bot
-You can run the bot either using Docker or npm:
-### Docker
-Run with Docker:
-```bash
-docker-compose up
-```
-### npm
-Run with npm:
-```bash
-npm start
-```
+2. Install dependencies:
+   
+   ```bash
+   npm install
+   ```
 
-## Seeding Database
-To seed the database, run:
-```bash
-npm run seed
-```
+3. Create a `.env` file based on the `.env.example` template.
 
-## Adding Images and Character Data
-You can update the seed data in `seed/characters.seed.json`. Make sure to use placeholder images links.
+4. Run the bot:
+   
+   ```bash
+   npm start
+   ```
+
+## Scripts
+
+- `npm run build`: Build the project
+- `npm run seed`: Run database seed script
+- `npm run test`: Run tests
+
+## License
+
+This project is licensed under the MIT License.
