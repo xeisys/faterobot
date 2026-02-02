@@ -1,36 +1,30 @@
 # FateRobot
 
-A Discord RPG/Gacha bot built with Node.js, TypeScript, and discord.js v14, featuring a web admin panel with Next.js and Tailwind.
+This is a Node.js + TypeScript Discord bot for Fate series fans, featuring:
 
-## Getting Started
+- Slash and message commands
+- MongoDB models
+- Gacha/banner system
+- Battle engine
+- Inventory/economy
+- Admin/dev commands
 
-1. Clone the repository:
-   
-   ```bash
-   git clone https://github.com/xeisys/faterobot.git
-   cd faterobot
-   ```
+### Admin Panel
 
-2. Install dependencies:
-   
-   ```bash
-   npm install
-   ```
+The admin panel is built with Next.js and Tailwind CSS.
 
-3. Create a `.env` file based on the `.env.example` template.
+### Getting Started
 
-4. Run the bot:
-   
-   ```bash
-   npm start
-   ```
+1. Clone the repository
+2. Install dependencies
+3. Configure your `.env`
+4. Run the bot and admin panel
 
-## Scripts
+### Commands
 
-- `npm run build`: Build the project
-- `npm run seed`: Run database seed script
-- `npm run test`: Run tests
+- `/start` : Start the bot
+- `/help` : Show help
 
-## License
+### Contributions
 
-This project is licensed under the MIT License.
+Feel free to fork the project and submit pull requests!
